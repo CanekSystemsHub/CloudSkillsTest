@@ -7,3 +7,5 @@ New-AzResourceGroupDeployment -Name CanekVm1 -ResourceGroupName $rg -TemplateUri
                                 -adminUsername canekadmin -dnsLabelPrefix mydeployment-31926
 
 Get-AzResourceGroupDeployment -Name CanekVm1 -ResourceGroupName $rg
+
+

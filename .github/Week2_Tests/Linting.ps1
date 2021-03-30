@@ -1,0 +1,1 @@
+invoke-scriptanalyzer -path .

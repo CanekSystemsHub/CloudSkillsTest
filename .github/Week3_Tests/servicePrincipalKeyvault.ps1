@@ -1,10 +1,10 @@
 function servicePrinicpalKeyvault {
     [cmdletbinding()]
     param(
-        [string]$name = "sp-keyvault-cloudskills",
+        [string]$name = "sp-keyvault-canek1",
         [string]$resourceGroup = "TerraformFiles",
         [string]$location = "centralus",
-        [string]$clientID = "6bf9e1c9-7479-4367-b1ed-51616ccb123c"
+        [string]$clientID = "3ae8f957-0767-49f3-af26-b3f10fb1cf31"
     )
 
     try {
@@ -36,3 +36,5 @@ function servicePrinicpalKeyvault {
         }
     }
 }
+
+servicePrinicpalKeyvault
